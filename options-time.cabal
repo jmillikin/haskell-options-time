@@ -1,5 +1,5 @@
 name: options-time
-version: 1.0
+version: 1.0.1
 license: MIT
 license-file: license.txt
 author: John Millikin <john@john-millikin.com>
@@ -19,9 +19,10 @@ source-repository head
 source-repository this
   type: git
   location: https://john-millikin.com/code/haskell-options-time/
-  tag: haskell-options-time_1.0
+  tag: haskell-options-time_1.0.1
 
 flag old-locale
+  default: False
 
 library
   ghc-options: -Wall -fno-warn-orphans
